@@ -16,14 +16,14 @@ justify-content: center;
 background: #1a0a12;
 }
 
-/* Le cœur = un carré tourné + deux ronds collés dessus /
+/* Le cœur = un carré tourné + deux ronds collés dessus */
 .coeur {
 position: relative;
 width: 100px;
 height: 100px;
 background: #e3171c;
 transform: rotate(-45deg);
-animation: bat 1s infinite; / l'animation tourne en boucle /
+animation: bat 1s infinite; /* l'animation tourne en boucle */
 }
 .coeur::before,
 .coeur::after {
@@ -32,7 +32,7 @@ position: absolute;
 width: 100px;
 height: 100px;
 background: #e3171c;
-border-radius: 50%; / transforme le carré en rond */
+border-radius: 50%; /* transforme le carré en rond */
 }
 .coeur::before { top: -50px; left: 0; }
 .coeur::after { left: 50px; top: 0; }
